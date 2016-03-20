@@ -1,43 +1,40 @@
 /*
-    
-
+    <div id="basket">
       <img src="images/kitty-3.png" alt="kitty 3">
+    </div>
 
+    <div id="ball"></div>
     <img src="images/kitty-4.png" alt="kitty 4">
-    <img src="images/kitty-5.png" alt="Kitty 5"> */
+    <img src="images/kitty-5.png" alt="Kitty 5">*/
 
 /* Select the image with a class of kitty-1 */
 
-/*__write_selector_here__*/
+/*class*/
 .kitty-1 {
   position: absolute;
   z-index: 1;
   top: 276px;
   left: 129px;
 }
-
-/* Select the image with id of kitty-2 */
-
-/*__write_selector_here__*/ 
+/*id*/
 #kitty-2 {
   position: absolute;
   z-index: 2;
   top: 212px;
   left: 369px;
 }
-
-/* Select the image inside the element with an id of basket (using its descendent relationship) */
-
-/*__write_selector_here__*/ {
+/*kitty-3*/
+#basket img {
   position: absolute;
   z-index: 5;
   top: 291px;
   left: 319px;
 }
 
-/* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
-
-/*__write_selector_here__*/ {
+/* Select the image based on it being a sibling that follows
+immediately after the element with an id of ball
+(using adjacent sibling selector) ..kitty-3 */
+#ball + img {
   position: absolute;
   z-index: 4;
   top: 260px;
@@ -45,8 +42,7 @@
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
-
-/*__write_selector_here__*/ {
+img[alt="Kitty 5"] {
   position: absolute;
   z-index: 3;
   top: 217px;
