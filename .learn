@@ -7,4 +7,9 @@ tags:
   - kitten
 type:
   - lab
+<<<<<<< HEAD
+=======
+tests:
+ - green_onion
+>>>>>>> solution
 resources: 0
