@@ -34,6 +34,7 @@
   left: 455px;
 }
 
+
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 
 #wheelbarrow-foreground + img {
