@@ -34,7 +34,7 @@ immediately after the element with an id of ball
 (using adjacent sibling selector) */
 
 /*__write_selector_here__*/
-#ball ~ kitty 4{
+#ball ~ img{
   position: absolute;
   z-index: 4;
   top: 260px;
