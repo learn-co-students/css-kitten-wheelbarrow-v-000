@@ -37,7 +37,7 @@
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
-img a:"Kitty 5"
+img a:alt="Kitty 5"
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 3;
