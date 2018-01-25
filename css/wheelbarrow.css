@@ -21,7 +21,7 @@ img {
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow {
   position: relative;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
@@ -33,8 +33,4 @@ img {
   background: url(../images/wheelbarrow-foreground.png) no-repeat;
   z-index: 10;
   top: 220px;
-}
-
-#basket, #ball {
-  display: inline;
 }
