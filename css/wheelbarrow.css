@@ -16,12 +16,14 @@ img {
 }
 
 #wheelbarrow, #wheelbarrow-foreground {
+  border: 33px;
+  border-color: black;
   margin-left: 80px;
   width: 688px;
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow {
   position: relative;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
