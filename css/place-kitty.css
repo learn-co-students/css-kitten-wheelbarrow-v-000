@@ -1,24 +1,27 @@
 /* Select the image with a class of kitty-1 */
 
-/*__write_selector_here__*/ {
+#kitty-1 {
   position: absolute;
   z-index: 1;
   top: 276px;
   left: 129px;
 }
 
-/* Select the image with id of kitty-2 */
-
-/*__write_selector_here__*/ {
+.kitty-2 {
   position: absolute;
   z-index: 2;
   top: 212px;
   left: 369px;
 }
 
-/* Select the image inside the element with an id of basket (using its descendent relationship) */
+.basket {
+  position: absolute;
+  z-index: 2;
+  top: 212px;
+  left: 369px;
+}
 
-/*__write_selector_here__*/ {
+div p {
   position: absolute;
   z-index: 5;
   top: 291px;
