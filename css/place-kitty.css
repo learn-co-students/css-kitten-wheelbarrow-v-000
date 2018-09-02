@@ -12,7 +12,7 @@
   background-image: url("images/kitty-2.png");
   position: absolute;
   z-index: 2;
-  top: 212px;
+  top: 272px;
   left: 369px;
 }
 
@@ -40,6 +40,6 @@ img="Kitty 5"
   background-image: url("images/kitty-5.png");
   position: absolute;
   z-index: 3;
-  top: 217px;
+  top: 277px;
   left: 223px;
 }
