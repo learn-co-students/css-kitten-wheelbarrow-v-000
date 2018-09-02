@@ -1,6 +1,6 @@
 /* Select the image with a class of kitty-1 */
 .kitty-1 /*__write_selector_here__*/ {
-  background-image: url(kitty-1.png);
+  background-image: url("images/kitty-1.png");
   /*position: absolute;
   z-index: 1;
   top: 276px;
@@ -9,7 +9,7 @@
 
 /* Select the image with id of kitty-2 */
 #kitty-2 img /*__write_selector_here__*/ {
-  background-image: url(kitty-2.png);
+  background-image: url("images/kitty-2.png");
   /*position: absolute;
   z-index: 2;
   top: 212px;
