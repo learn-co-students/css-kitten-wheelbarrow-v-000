@@ -37,6 +37,7 @@
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 img="Kitty 5"
 /*__write_selector_here__*/ {
+  background-image: url("images/kitty-5.png");
   position: absolute;
   z-index: 3;
   top: 217px;
