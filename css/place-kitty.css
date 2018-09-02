@@ -1,9 +1,9 @@
 /* Select the image with a class of kitty-1 */
 .kitty-1 /*__write_selector_here__*/ {
-  position: absolute;
+  /*position: absolute;
   z-index: 1;
   top: 276px;
-  left: 129px;
+  left: 129px; */
 }
 
 /* Select the image with id of kitty-2 */
