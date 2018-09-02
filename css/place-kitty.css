@@ -1,5 +1,6 @@
 /* Select the image with a class of kitty-1 */
 .kitty-1 /*__write_selector_here__*/ {
+  background-image url("")
   /*position: absolute;
   z-index: 1;
   top: 276px;
@@ -8,10 +9,10 @@
 
 /* Select the image with id of kitty-2 */
 #kitty-2 img /*__write_selector_here__*/ {
-  position: absolute;
+  /*position: absolute;
   z-index: 2;
   top: 212px;
-  left: 369px;
+  left: 369px; */
 }
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
