@@ -2,7 +2,7 @@ html {
   background: url(../images/beautiful-day.jpg) no-repeat top center;
 }
 
-img {
+div {
   position: relative;
   z-index: 11;
   cursor: pointer;
