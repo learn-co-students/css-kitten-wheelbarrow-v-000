@@ -31,7 +31,7 @@
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
 
 /*__write_selector_here__*/
-.wrapper img:first-child{
+.wrapper img:first-child {
   position: absolute;
   z-index: 4;
   top: 260px;
@@ -41,7 +41,7 @@
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 
 /*__write_selector_here__*/
-{
+#ball + img{
   position: absolute;
   z-index: 3;
   top: 217px;
