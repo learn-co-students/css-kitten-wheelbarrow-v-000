@@ -1,40 +1,44 @@
-html {
-  background: url(../images/beautiful-day.jpg) no-repeat top center;
-}
+/* Select the image with a class of kitty-1 */
 
-img {
-  position: relative;
-  z-index: 11;
-  cursor: pointer;
-}
-
-.wrapper {
-  position: relative;
-  width: 960px;
-  height: 100vh;
-  margin: 0 auto;
-}
-
-#wheelbarrow, #wheelbarrow-foreground {
-  margin-left: 80px;
-  width: 688px;
-  height: 514px;
-}
-
-#wheelbarrow { 
-  position: relative;
-  background: url(../images/wheelbarrow.png) no-repeat;
-  z-index: 0;
-  top: 220px;
-}
-#wheelbarrow-foreground {
-  pointer-events: none;
+.kitty-1 {
   position: absolute;
-  background: url(../images/wheelbarrow-foreground.png) no-repeat;
-  z-index: 10;
-  top: 220px;
+  z-index: 1;
+  top: 276px;
+  left: 129px;
 }
 
-#basket, #ball {
-  display: inline;
+/* Select the image with id of kitty-2 */
+
+#kitty-2 {
+  position: absolute;
+  z-index: 2;
+  top: 212px;
+  left: 369px;
+}
+
+/* Select the image inside the element with an id of basket (using its descendent relationship) */
+
+#basket img {
+  position: absolute;
+  z-index: 5;
+  top: 291px;
+  left: 319px;
+}
+
+/* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
+
+#ball + img {
+  position: absolute;
+  z-index: 4;
+  top: 260px;
+  left: 455px;
+}
+
+/* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
+
+img[alt="Kitty 5"] {
+  position: absolute;
+  z-index: 3;
+  top: 217px;
+  left: 223px;
 }
