@@ -1,5 +1,5 @@
 /* Select the image with a class of kitty-1 */
-
+.kitty-1
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 1;
@@ -8,7 +8,7 @@
 }
 
 /* Select the image with id of kitty-2 */
-
+#kitty-2
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 2;
@@ -17,7 +17,7 @@
 }
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
-
+#basket img
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 5;
@@ -26,7 +26,7 @@
 }
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
-
+#ball + img
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 4;
@@ -35,7 +35,7 @@
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
-
+img[alt="Kitty 5"]
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 3;
