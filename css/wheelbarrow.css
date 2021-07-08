@@ -15,13 +15,13 @@ img {
   margin: 0 auto;
 }
 
-#wheelbarrow, #wheelbarrow-foreground {
+#wheelbarrow, #wheelbarrow-foreground { 
   margin-left: 80px;
   width: 688px;
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow {
   position: relative;
   background: url(../images/wheelbarrow.png) no-repeat;
   z-index: 0;
